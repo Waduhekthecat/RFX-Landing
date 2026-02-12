@@ -13,7 +13,7 @@ const geistMono = Geist_Mono({
 });
 
 export const metadata = {
-  title: "Novista — RFX Core",
+  title: "Faultline Signal Audio",
   description: "RFX Core brings studio-grade plugins to the stage. A real-time routing instrument built for live performance.",
 };
 

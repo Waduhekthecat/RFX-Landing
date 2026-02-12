@@ -45,7 +45,7 @@ export default function Home() {
               href="#waitlist"
               className="rounded-xl bg-linear-to-br from-violet-500 to-cyan-300 px-10 py-2.5 font-semibold text-[#071018] hover:opacity-90"
             >
-              Get Early Access
+              Request Early Access
             </a>
             <div className="relative group flex items-center">
               <a
@@ -62,8 +62,27 @@ export default function Home() {
                 "
                 aria-disabled="true"
               >
-                See how it works
+                Demo
               </a>
+
+              <div
+                className="
+                  pointer-events-none
+                  absolute 
+                  left-full ml-2 top-1/2 -translate-y-1/2 -translate-x-1/2
+                  whitespace-nowrap
+                  rounded-md 
+                  bg-black/80 
+                  px-2 py-1 
+                  text-xs 
+                  text-white/70 
+                  opacity-0 
+                  transition-opacity 
+                  group-hover:opacity-100
+                "
+              >
+                Demo coming soon
+              </div>
             </div>
           </div>
 

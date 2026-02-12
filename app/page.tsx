@@ -62,27 +62,8 @@ export default function Home() {
                 "
                 aria-disabled="true"
               >
-                Watch demo
+                See how it works
               </a>
-
-              <div
-                className="
-                  pointer-events-none
-                  absolute 
-                  left-full ml-2 top-1/2 -translate-y-1/2 -translate-x-1/2
-                  whitespace-nowrap
-                  rounded-md 
-                  bg-black/80 
-                  px-2 py-1 
-                  text-xs 
-                  text-white/70 
-                  opacity-0 
-                  transition-opacity 
-                  group-hover:opacity-100
-                "
-              >
-                Demo coming soon
-              </div>
             </div>
           </div>
 
